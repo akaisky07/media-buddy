@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Media Buddy-Community</title>
+<link rel="icon" type="image/png" href="images/favicon-32x32.png">
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,300;0,500;0,700;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section class="genre-header">
+<nav>
+<a href="index.html"><img src="images/4.jpg"></a>
+<div class="nav-links" id="navLinks">
+<i class="fa fa-window-close" onclick="hideMenu()"></i>
+<ul>
+<li><a href="profile.html">PROFILE</a></li>
+<li><a href="genre.html">GENRE</a></li>
+<li><a href="popular.html">POPULAR</a></li>
+<li><a href="">LATEST</a></li>
+<li><a href="">COMMUNITY</a></li>
+</ul>
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+<h1>Media Buddy</h1>
+<p>Upload your Media Recommedations here!!
+</p>
+<a href='index.html' class="hero-btn" >Visit Home Page</a>
+</section>
+
+<section class="testimonials">
+<h1>What Our Users Say</h1>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+<div class=row>
+<div class ="testimonial-col">
+<img src=images/19.png>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus nisl, mattis id porttitor vitae, tincidunt non ex.</p>
+<h3>Akai Black</h3> 
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+</div>
+<div class ="testimonial-col">
+<img src=images/20.jpg>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus nisl, mattis id porttitor vitae, tincidunt non ex.</p>
+<h3>Deadpool Lite</h3> 
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+<i class="fa fa-star-o"></i>
+</div>
+</div>
+<div class ="testimonial-col">
+<img src=images/21.jpg>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus nisl, mattis id porttitor vitae, tincidunt non ex.</p>
+<h3>Asta Aqua</h3> 
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-half-o"></i>
+</div>
+</div>
+<div class ="testimonial-col">
+<img src=images/22.jpg>
+<div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In tellus nisl, mattis id porttitor vitae, tincidunt non ex.</p>
+<h3>Rudi Trashuma</h3> 
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star"></i>
+<i class="fa fa-star-o"></i>
+</div>
+</div>
+</div>
+</section>
+
+<section class="comment">
+<div class=comment-box>
+<div class ="comment-form">
+<textarea row=8 placeholder="Post Your Comment here....">
+</textarea>
+<a href='profile.html'><button type="submit" class="hero-btn">COMMENT</button>
+</a>
+</form>
+</div>
+</div>
+</section>
+
+
+
+
+<section class="footer">
+<h4>Contact Admin</h4>
+<div class="icons">
+<p><i class="fa fa-facebook"></i>Aman Kumar<br><i class="fa fa-twitter"></i>aman_kr_7<br><i class="fa fa-instagram"></i>aman.k.7<br><i class="fa fa-linkedin"></i>Aman Kumar</p>
+</div>
+</div>
+</section>
+
+
+<script>
+var navLinks=document.getElementById("navLinks");
+function showMenu(){
+navLinks.style.right="0";
+}
+function hideMenu(){
+navLinks.style.right="-170px";
+}
+</script>
+</body>
+</html>
