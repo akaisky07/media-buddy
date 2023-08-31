@@ -1,0 +1,2 @@
+# media-buddy
+HTML Template
